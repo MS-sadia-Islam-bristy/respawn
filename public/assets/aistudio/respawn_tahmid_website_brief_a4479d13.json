@@ -1,0 +1,309 @@
+{
+  "project": {
+    "name": "Respawn Tahmid — Gaming Creator Website",
+    "purpose": "Build a polished, responsive personal gaming website and social hub for Respawn Tahmid. The website should make the creator recognizable, help visitors find every social platform, promote livestreams, and encourage people to subscribe and join the community.",
+    "target_builder": "Google AI Studio",
+    "build_instruction": "Use this JSON as the complete creative and functional brief. Generate a working, responsive website—not just a mockup. Keep content and social links easy to edit. Do not invent statistics, schedules, sponsorships, achievements, or live status. If a platform URL or content item is marked as a placeholder, make it easy for the owner to replace."
+  },
+  "brand": {
+    "display_name": "Respawn Tahmid",
+    "handle": "@RespawnTahmid",
+    "tagline": "I die. I respawn. I come back harder.",
+    "supporting_line": "The game never stops—and neither do I.",
+    "creator_description": "A gaming creator and daily livestreamer, primarily playing VALORANT and occasionally other games. The site should feel like the home base for the community across streaming and social platforms.",
+    "brand_personality": [
+      "authentic",
+      "competitive",
+      "confident",
+      "community-driven",
+      "energetic",
+      "slightly rebellious"
+    ],
+    "brand_goal": "Make visitors feel that Respawn Tahmid is a real creator with a recognizable identity—not a generic AI gaming brand."
+  },
+  "assets_to_provide": {
+    "logo": {
+      "expected_input": "The owner will upload/provide the selected Respawn Tahmid logo separately.",
+      "usage": "Use as the primary brand mark for the navbar, footer, favicon if suitable, and social/contact areas.",
+      "instructions": [
+        "Use the supplied logo as the source of truth.",
+        "Do not redraw, retype, or replace the logo unless explicitly asked.",
+        "Preserve its proportions and transparency if present.",
+        "If the logo contains a portrait, do not alter the creator's recognizable facial features."
+      ]
+    },
+    "youtube_banner": {
+      "expected_input": "The owner will upload/provide the selected YouTube banner separately.",
+      "usage": "Use as visual inspiration for the website hero and brand styling, not as a stretched full-page background.",
+      "instructions": [
+        "Preserve the banner's black/red/white identity.",
+        "Do not stretch or crop it in a way that distorts the face or wordmark.",
+        "Extract the visual direction—gritty textures, red brush strokes, strong contrast—and adapt it to a clean website layout.",
+        "The website must still look good on mobile even if the banner is not displayed in full."
+      ]
+    },
+    "creator_portrait": {
+      "expected_input": "Use the portrait included in the supplied logo/banner when available; otherwise provide an optional portrait upload slot.",
+      "instructions": [
+        "Keep the creator's real appearance recognizable.",
+        "Avoid turning the portrait into a fantasy character or overly artificial AI face.",
+        "Use tasteful lighting and crop adjustments only."
+      ]
+    }
+  },
+  "visual_design": {
+    "theme": "Dark esports / gaming creator brand, bold but clean and usable.",
+    "colors": {
+      "background": "#090909",
+      "surface": "#151515",
+      "surface_secondary": "#202020",
+      "primary": "#F20D2F",
+      "text": "#F7F7F7",
+      "muted_text": "#A7A7A7",
+      "border": "#303030"
+    },
+    "style_keywords": [
+      "black, red, and white",
+      "high contrast",
+      "subtle grunge and brush-stroke details",
+      "angular accents",
+      "cinematic red rim-light inspiration",
+      "bold condensed headlines",
+      "clean spacing",
+      "professional gaming brand"
+    ],
+    "typography": {
+      "headings": "Anton or Bebas Neue, with a strong condensed uppercase style",
+      "body": "Inter or a similar clean sans-serif",
+      "rules": [
+        "Use bold uppercase display type for short headings only.",
+        "Keep paragraph text readable and restrained.",
+        "Do not use too many fonts.",
+        "Avoid excessive distressed effects on body text."
+      ]
+    },
+    "design_rules": [
+      "Avoid the generic template look.",
+      "Do not fill every section with neon effects, particles, or red glow.",
+      "Use red as an accent for buttons, links, active states, and important labels.",
+      "Keep generous spacing and strong visual hierarchy.",
+      "Use subtle hover transitions, not distracting animations.",
+      "Use the supplied logo and banner as brand references, not as excuses to overcrowd the page."
+    ]
+  },
+  "website_structure": [
+    {
+      "id": "navigation",
+      "name": "Sticky navigation",
+      "requirements": [
+        "Logo on the left.",
+        "Navigation links: Home, About, Watch Live, Socials.",
+        "A high-contrast Subscribe button on the right.",
+        "On mobile, use a compact accessible menu.",
+        "Do not let the navigation cover content when scrolling."
+      ]
+    },
+    {
+      "id": "hero",
+      "name": "Main hero",
+      "headline": "RESPAWN TAHMID",
+      "subheadline": "I die. I respawn. I come back harder.",
+      "description": "Gaming, daily livestreams, and a community that keeps coming back.",
+      "primary_cta": {
+        "label": "SUBSCRIBE ON YOUTUBE",
+        "url": "ADD_YOUTUBE_CHANNEL_URL"
+      },
+      "secondary_cta": {
+        "label": "FOLLOW ON TWITCH",
+        "url": "https://www.twitch.tv/respawntahmid"
+      },
+      "visual_guidance": [
+        "Use the supplied logo/portrait prominently.",
+        "Keep the first screen clear and immediately recognizable.",
+        "Use a dark background with restrained red accents.",
+        "Do not invent a live badge or claim the creator is live unless live status is actually verified.",
+        "On mobile, stack content cleanly and keep both buttons easy to tap."
+      ]
+    },
+    {
+      "id": "watch-live",
+      "name": "Watch and follow",
+      "headline": "CATCH THE NEXT DROP",
+      "description": "Find Respawn Tahmid on your preferred streaming platform.",
+      "platforms": [
+        {
+          "name": "Twitch",
+          "url": "https://www.twitch.tv/respawntahmid",
+          "button_label": "WATCH ON TWITCH"
+        },
+        {
+          "name": "Kick",
+          "url": "https://kick.com/respawntahmid",
+          "button_label": "WATCH ON KICK"
+        },
+        {
+          "name": "YouTube",
+          "url": "ADD_YOUTUBE_CHANNEL_URL",
+          "button_label": "SUBSCRIBE ON YOUTUBE"
+        }
+      ],
+      "functional_notes": [
+        "Open external platforms in a new tab with safe link attributes.",
+        "Do not show a false live status.",
+        "Optionally support a YouTube/Twitch embed only if the owner later provides the correct channel/video details.",
+        "If embeds are not configured, show platform cards instead."
+      ]
+    },
+    {
+      "id": "about",
+      "name": "About the creator",
+      "headline": "THE PLAYER BEHIND THE RESPAWN",
+      "copy": "I'm Respawn Tahmid. I stream gaming every day, mainly VALORANT, and sometimes switch things up with other games. Whether you're here for the gameplay, the live chat, or the community, welcome in.",
+      "design_notes": [
+        "Keep this personal and direct.",
+        "Use the supplied portrait or logo.",
+        "Do not invent the creator's age, rank, professional status, or personal biography."
+      ]
+    },
+    {
+      "id": "community",
+      "name": "Social media hub",
+      "headline": "STAY IN THE LOOP",
+      "description": "Follow, watch, and join the community wherever you hang out.",
+      "social_links": [
+        {
+          "name": "Discord",
+          "url": "https://discord.gg/PPDx7RvpaK",
+          "action": "JOIN THE DISCORD"
+        },
+        {
+          "name": "Instagram",
+          "url": "https://www.instagram.com/respawntahmid/",
+          "action": "FOLLOW ON INSTAGRAM"
+        },
+        {
+          "name": "TikTok",
+          "url": "https://www.tiktok.com/@respawn_tahmid?is_from_webapp=1&sender_device=pc",
+          "action": "FOLLOW ON TIKTOK"
+        },
+        {
+          "name": "Facebook",
+          "url": "https://www.facebook.com/RespawnTahmid",
+          "action": "FOLLOW ON FACEBOOK"
+        },
+        {
+          "name": "Twitch",
+          "url": "https://www.twitch.tv/respawntahmid",
+          "action": "FOLLOW ON TWITCH"
+        },
+        {
+          "name": "Kick",
+          "url": "https://kick.com/respawntahmid",
+          "action": "FOLLOW ON KICK"
+        }
+      ],
+      "design_notes": [
+        "Use recognizable platform icons where licensing and icon availability permit.",
+        "Make each card clickable and keyboard accessible.",
+        "Keep the platform names visible; do not rely on icons alone."
+      ]
+    },
+    {
+      "id": "content",
+      "name": "Latest videos and clips",
+      "headline": "RECENT CONTENT",
+      "description": "The latest streams, highlights, and clips from Respawn Tahmid.",
+      "requirements": [
+        "Build a reusable grid for video cards.",
+        "Use real video URLs and thumbnails supplied by the owner.",
+        "Until content is provided, show clearly editable placeholder cards in the editor, not fake published videos.",
+        "If a YouTube channel URL or playlist is later provided, make it easy to connect."
+      ]
+    },
+    {
+      "id": "road-to-1k",
+      "name": "Subscriber challenge",
+      "headline": "ROAD TO 1K",
+      "copy": "The goal is 1,000 subscribers. Be part of the journey.",
+      "requirements": [
+        "Make this a campaign section that can be enabled or hidden.",
+        "Do not display an invented current subscriber count or fake progress bar.",
+        "If a progress bar is included, make the current count editable by the owner and label it clearly.",
+        "Use a strong subscribe CTA that links to the real YouTube channel URL once provided."
+      ]
+    },
+    {
+      "id": "footer",
+      "name": "Footer",
+      "requirements": [
+        "Show the logo or wordmark.",
+        "Include a compact set of social links.",
+        "Include a back-to-top link.",
+        "Use the line: I die. I respawn. I come back harder.",
+        "Keep the footer simple and mobile-friendly."
+      ]
+    }
+  ],
+  "functionality": {
+    "required": [
+      "Fully responsive desktop, tablet, and mobile layouts.",
+      "Working navigation and mobile menu.",
+      "All social links must open the correct external destinations.",
+      "Clear hover, focus, and pressed states for interactive elements.",
+      "Accessible contrast and keyboard navigation.",
+      "Optimized images and lazy loading for below-the-fold media.",
+      "A custom favicon using the supplied logo if a suitable square version exists.",
+      "Easy-to-edit centralized configuration for social links and content."
+    ],
+    "optional": [
+      "A reduced-motion mode that respects the user's system preference.",
+      "A lightweight YouTube video embed once the channel/video URL is provided.",
+      "A simple contact link only if the owner provides an email address."
+    ],
+    "do_not": [
+      "Do not invent an email address.",
+      "Do not invent YouTube video URLs or a YouTube channel URL.",
+      "Do not show a fake live indicator, fake viewer count, fake subscriber count, fake testimonials, or fake sponsors.",
+      "Do not add a payment system, account login, or unnecessary database.",
+      "Do not use loud animations that make the page hard to read.",
+      "Do not replace the supplied logo/banner with newly generated branding."
+    ]
+  },
+  "technical_expectations": {
+    "output": "A complete working website project with clear run instructions.",
+    "preferred_approach": "Use a modern responsive frontend stack supported by Google AI Studio; keep the implementation straightforward and maintainable.",
+    "code_quality": [
+      "Use reusable components for navigation, social cards, buttons, and content cards.",
+      "Keep brand text, colors, URLs, and editable content in a central configuration file.",
+      "Use semantic HTML and accessible labels.",
+      "Use responsive image sizing and avoid layout shifts.",
+      "Provide a clear list of placeholders that the owner still needs to fill in."
+    ],
+    "seo": {
+      "page_title": "Respawn Tahmid | Gaming, VALORANT & Live Streams",
+      "meta_description": "Join Respawn Tahmid for daily gaming livestreams, VALORANT gameplay, highlights, and the community across YouTube, Twitch, Kick, TikTok, Instagram, and Discord.",
+      "keywords": [
+        "Respawn Tahmid",
+        "VALORANT",
+        "gaming livestream",
+        "Bangladeshi gaming creator",
+        "Twitch streamer",
+        "Kick streamer"
+      ],
+      "requirements": [
+        "Use one clear H1.",
+        "Use descriptive page titles and metadata.",
+        "Add social preview metadata where appropriate.",
+        "Do not add unsupported claims."
+      ]
+    }
+  },
+  "owner_checklist_before_launch": [
+    "Upload the chosen Respawn Tahmid logo to Google AI Studio.",
+    "Upload the chosen YouTube banner as a visual reference.",
+    "Replace ADD_YOUTUBE_CHANNEL_URL with the real YouTube channel URL.",
+    "Provide real video links and thumbnails if the Recent Content section should show actual content.",
+    "Check all social links on mobile and desktop.",
+    "Preview the site at narrow mobile widths before publishing."
+  ]
+}

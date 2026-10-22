@@ -1,0 +1,8 @@
+{
+  "name": "Respawn Tahmid",
+  "description": "Join Respawn Tahmid for daily gaming livestreams, gameplay, highlights, and a variety of games. Connect across YouTube, Twitch, Kick, TikTok, Instagram, and Discord.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
